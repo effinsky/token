@@ -136,10 +136,10 @@ local function palette(background)
     bg4 = '#2f2f2d',
     bg5 = '#383835',
     -- Foreground ramp
-    fg0 = '#b8b8b8',
-    fg1 = '#a6a6a6',
-    fg2 = '#888888',
-    fg3 = '#666666',
+    fg0 = '#c8c8c8',
+    fg1 = '#b6b6b6',
+    fg2 = '#989898',
+    fg3 = '#767676',
     -- Accent hues
     accent = '#d97757',
     accent2 = '#c4956a',
