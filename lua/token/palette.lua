@@ -136,7 +136,7 @@ local function palette(background)
     bg4 = '#2f2f2d',
     bg5 = '#383835',
     -- Foreground ramp
-    fg0 = '#a9b8c4',
+    fg0 = '#b8b8b8',
     fg1 = '#999999',
     fg2 = '#777777',
     fg3 = '#555555',
