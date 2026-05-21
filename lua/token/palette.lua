@@ -137,9 +137,9 @@ local function palette(background)
     bg5 = '#383835',
     -- Foreground ramp
     fg0 = '#b8b8b8',
-    fg1 = '#999999',
-    fg2 = '#777777',
-    fg3 = '#555555',
+    fg1 = '#a6a6a6',
+    fg2 = '#888888',
+    fg3 = '#666666',
     -- Accent hues
     accent = '#d97757',
     accent2 = '#c4956a',
