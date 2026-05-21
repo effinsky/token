@@ -7,7 +7,7 @@ local function editor(p)
     NormalNC = { fg = p.fg0, bg = p.bg2 },
     NormalFloat = { fg = p.fg0, bg = p.bg0 },
     FloatBorder = { fg = p.fg3, bg = p.bg0 },
-    FloatTitle = { fg = p.accent, bg = p.bg0, bold = true },
+    FloatTitle = { fg = p.accent, bg = p.bg0, italic = true },
     FloatFooter = { fg = p.fg2, bg = p.bg0 },
 
     Cursor = { fg = p.bg3, bg = p.fg0 },
@@ -18,7 +18,7 @@ local function editor(p)
     TermCursor = { link = 'Cursor' },
     CursorLineFold = { fg = p.fg3, bg = p.bg4 },
     CursorLineSign = { fg = p.fg3, bg = p.bg4 },
-    CursorLineNr = { fg = p.olive, bold = true },
+    CursorLineNr = { fg = p.olive, italic = true },
 
     LineNr = { fg = p.line_nr, bg = p.bg2 },
     LineNrAbove = { link = 'LineNr' },
@@ -40,18 +40,18 @@ local function editor(p)
 
     TabLine = { fg = p.fg2, bg = p.bg1 },
     TabLineFill = { fg = p.fg3, bg = p.bg1 },
-    TabLineSel = { fg = p.fg0, bg = p.bg3, bold = true },
+    TabLineSel = { fg = p.fg0, bg = p.bg3, italic = true },
 
     Pmenu = { fg = p.fg0, bg = p.bg1 },
-    PmenuSel = { fg = p.fg0, bg = p.sel, bold = true },
+    PmenuSel = { fg = p.fg0, bg = p.sel, italic = true },
     PmenuSbar = { bg = p.bg2 },
     PmenuThumb = { bg = p.fg3 },
     PmenuKind = { fg = p.blue, bg = p.bg1 },
     PmenuKindSel = { fg = p.blue, bg = p.sel },
     PmenuExtra = { fg = p.fg2, bg = p.bg1 },
     PmenuExtraSel = { fg = p.fg2, bg = p.sel },
-    PmenuMatch = { fg = p.accent, bg = p.bg1, bold = true },
-    PmenuMatchSel = { fg = p.accent, bg = p.sel, bold = true },
+    PmenuMatch = { fg = p.accent, bg = p.bg1, italic = true },
+    PmenuMatchSel = { fg = p.accent, bg = p.sel, italic = true },
     PmenuBorder = { fg = p.fg3, bg = p.bg1 },
     PmenuShadow = { link = 'FloatShadow' },
     PmenuShadowThrough = { link = 'FloatShadowThrough' },
@@ -64,7 +64,7 @@ local function editor(p)
     CurSearch = { fg = p.bg3, bg = p.accent },
     Substitute = { fg = p.bg3, bg = p.red },
 
-    MatchParen = { fg = p.accent, bold = true, underline = true },
+    MatchParen = { fg = p.accent, italic = true, underline = true },
     SnippetTabstop = { bg = p.bg5 },
     SnippetTabstopActive = { bg = p.match },
 
@@ -72,10 +72,10 @@ local function editor(p)
     QuickFixLine = { bg = p.bg5 },
 
     Directory = { fg = p.blue },
-    Title = { fg = p.accent, bold = true },
+    Title = { fg = p.accent, italic = true },
     Question = { fg = p.green },
     MoreMsg = { fg = p.green },
-    ModeMsg = { fg = p.fg1, bold = true },
+    ModeMsg = { fg = p.fg1, italic = true },
     WarningMsg = { fg = p.yellow },
     ErrorMsg = { fg = p.red },
     MsgArea = { fg = p.fg0 },
@@ -98,15 +98,15 @@ local function editor(p)
     -- LSP references
     LspReferenceText = { bg = p.bg5 },
     LspReferenceRead = { bg = p.bg5 },
-    LspReferenceWrite = { bg = p.bg5, bold = true },
+    LspReferenceWrite = { bg = p.bg5, italic = true },
     LspReferenceTarget = { bg = p.bg5 },
     LspInlayHint = { fg = p.fg3, bg = p.bg4, italic = true },
     LspCodeLens = { fg = p.fg2 },
     LspCodeLensSeparator = { fg = p.fg3 },
-    LspSignatureActiveParameter = { fg = p.accent, bold = true },
+    LspSignatureActiveParameter = { fg = p.accent, italic = true },
 
     -- Misc UI
-    ComplMatchIns = { fg = p.accent, bold = true },
+    ComplMatchIns = { fg = p.accent, italic = true },
     PreInsert = { fg = p.green },
     ComplHint = { fg = p.fg3 },
     ComplHintMore = { fg = p.fg2 },

@@ -3,8 +3,8 @@
 local function lazy(p)
   return {
     -- headings and buttons
-    LazyH1 = { fg = p.bg3, bg = p.accent, bold = true },
-    LazyH2 = { fg = p.accent, bold = true },
+    LazyH1 = { fg = p.bg3, bg = p.accent, italic = true },
+    LazyH2 = { fg = p.accent, italic = true },
     LazyButton = { fg = p.fg1, bg = p.bg4 },
     LazyButtonActive = { fg = p.bg3, bg = p.accent },
 
@@ -20,7 +20,7 @@ local function lazy(p)
     -- commit info
     LazyCommit = { fg = p.purple },
     LazyCommitIssue = { fg = p.blue },
-    LazyCommitType = { fg = p.accent, bold = true },
+    LazyCommitType = { fg = p.accent, italic = true },
     LazyCommitScope = { fg = p.fg1, italic = true },
 
     -- text elements

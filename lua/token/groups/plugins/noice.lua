@@ -9,7 +9,7 @@ local function noice(p)
     NoiceCmdlinePopup = { fg = p.fg0, bg = p.bg1 },
     NoiceCmdlinePopupBorder = { fg = p.fg3, bg = p.bg1 },
     NoiceCmdlinePopupBorderSearch = { fg = p.yellow, bg = p.bg1 },
-    NoiceCmdlinePopupTitle = { fg = p.accent, bg = p.bg1, bold = true },
+    NoiceCmdlinePopupTitle = { fg = p.accent, bg = p.bg1, italic = true },
     NoiceCmdlinePrompt = { link = 'MsgArea' },
 
     -- popup and message windows
@@ -27,7 +27,7 @@ local function noice(p)
     -- popupmenu
     NoicePopupmenu = { link = 'Pmenu' },
     NoicePopupmenuBorder = { link = 'FloatBorder' },
-    NoicePopupmenuMatch = { fg = p.accent, bold = true },
+    NoicePopupmenuMatch = { fg = p.accent, italic = true },
     NoicePopupmenuSelected = { link = 'PmenuSel' },
     NoiceScrollbar = { link = 'PmenuSbar' },
     NoiceScrollbarThumb = { link = 'PmenuThumb' },
@@ -35,12 +35,12 @@ local function noice(p)
     -- format elements
     NoiceFormatProgressDone = { fg = p.bg3, bg = p.accent },
     NoiceFormatProgressTodo = { fg = p.fg3, bg = p.bg4 },
-    NoiceFormatTitle = { fg = p.accent, bold = true },
+    NoiceFormatTitle = { fg = p.accent, italic = true },
     NoiceFormatEvent = { fg = p.fg2 },
     NoiceFormatKind = { fg = p.blue },
     NoiceFormatDate = { fg = p.fg2 },
     NoiceFormatConfirm = { fg = p.accent },
-    NoiceFormatConfirmDefault = { fg = p.accent, bold = true },
+    NoiceFormatConfirmDefault = { fg = p.accent, italic = true },
     NoiceFormatLevelError = { fg = p.red },
     NoiceFormatLevelWarn = { fg = p.yellow },
     NoiceFormatLevelInfo = { fg = p.blue },
@@ -49,7 +49,7 @@ local function noice(p)
     NoiceFormatLevelOff = { fg = p.fg3 },
 
     -- LSP progress
-    NoiceLspProgressTitle = { fg = p.accent, bold = true },
+    NoiceLspProgressTitle = { fg = p.accent, italic = true },
     NoiceLspProgressClient = { fg = p.fg2 },
     NoiceLspProgressSpinner = { fg = p.accent },
 

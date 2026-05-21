@@ -3,7 +3,7 @@
 local function diffview(p)
   return {
     DiffviewFilePanelRootPath = { fg = p.fg3 },
-    DiffviewFilePanelTitle = { fg = p.accent, bold = true },
+    DiffviewFilePanelTitle = { fg = p.accent, italic = true },
     DiffviewFilePanelCounter = { fg = p.fg2 },
     DiffviewFilePanelFileName = { fg = p.fg0 },
     DiffviewFilePanelInsertions = { fg = p.green },
@@ -20,7 +20,7 @@ local function diffview(p)
     DiffviewStatusUnmerged = { fg = p.accent },
     DiffviewStatusUnknown = { fg = p.red },
     DiffviewStatusDeleted = { fg = p.red },
-    DiffviewStatusBroken = { fg = p.red, bold = true },
+    DiffviewStatusBroken = { fg = p.red, italic = true },
     DiffviewStatusIgnored = { fg = p.fg3 },
     DiffviewDim1 = { fg = p.fg3 },
     DiffviewPrimary = { fg = p.accent },

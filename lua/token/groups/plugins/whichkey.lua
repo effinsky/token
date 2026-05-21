@@ -8,7 +8,7 @@ local function whichkey(p)
     WhichKeyDesc = { fg = p.fg1 },
     WhichKeyNormal = { fg = p.fg0, bg = p.bg0 },
     WhichKeyBorder = { fg = p.fg3, bg = p.bg0 },
-    WhichKeyTitle = { fg = p.accent, bg = p.bg0, bold = true },
+    WhichKeyTitle = { fg = p.accent, bg = p.bg0, italic = true },
     WhichKeyValue = { fg = p.fg2 },
     WhichKeyIcon = { fg = p.blue },
     WhichKeyIconAzure = { fg = p.cyan },

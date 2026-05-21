@@ -5,7 +5,7 @@ local function flash(p)
     FlashBackdrop = { fg = p.fg3 },
     FlashMatch = { fg = p.fg0, bg = p.match },
     FlashCurrent = { fg = p.bg3, bg = p.accent2 },
-    FlashLabel = { fg = p.bg3, bg = p.accent, bold = true },
+    FlashLabel = { fg = p.bg3, bg = p.accent, italic = true },
     FlashCursor = { link = 'Cursor' },
     FlashPrompt = { link = 'MsgArea' },
     FlashPromptIcon = { fg = p.accent },

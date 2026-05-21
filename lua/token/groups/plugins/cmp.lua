@@ -5,8 +5,8 @@ local function cmp(p)
     -- menu text
     CmpItemAbbr = { fg = p.fg0 },
     CmpItemAbbrDeprecated = { fg = p.fg3, strikethrough = true },
-    CmpItemAbbrMatch = { fg = p.accent, bold = true },
-    CmpItemAbbrMatchFuzzy = { fg = p.accent, bold = true },
+    CmpItemAbbrMatch = { fg = p.accent, italic = true },
+    CmpItemAbbrMatchFuzzy = { fg = p.accent, italic = true },
     CmpItemMenu = { fg = p.fg2 },
 
     -- kind icons (matches blink.lua mapping)

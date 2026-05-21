@@ -19,7 +19,7 @@ local function oil(p)
     OilTrash = { fg = p.red },
     OilTrashSourcePath = { fg = p.fg3, italic = true },
     OilRestore = { fg = p.green },
-    OilPurge = { fg = p.red, bold = true },
+    OilPurge = { fg = p.red, italic = true },
     OilHidden = { fg = p.fg3 },
   }
 end

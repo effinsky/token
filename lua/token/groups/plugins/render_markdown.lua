@@ -3,18 +3,18 @@
 local function render_markdown(p)
   return {
     -- headings (fg matches treesitter.lua @markup.heading.*)
-    RenderMarkdownH1 = { fg = p.accent, bold = true },
-    RenderMarkdownH2 = { fg = p.accent2, bold = true },
-    RenderMarkdownH3 = { fg = p.olive, bold = true },
-    RenderMarkdownH4 = { fg = p.blue, bold = true },
-    RenderMarkdownH5 = { fg = p.green, bold = true },
-    RenderMarkdownH6 = { fg = p.purple, bold = true },
-    RenderMarkdownH1Bg = { fg = p.accent, bg = p.bg4, bold = true },
-    RenderMarkdownH2Bg = { fg = p.accent2, bg = p.bg4, bold = true },
-    RenderMarkdownH3Bg = { fg = p.olive, bg = p.bg4, bold = true },
-    RenderMarkdownH4Bg = { fg = p.blue, bg = p.bg4, bold = true },
-    RenderMarkdownH5Bg = { fg = p.green, bg = p.bg4, bold = true },
-    RenderMarkdownH6Bg = { fg = p.purple, bg = p.bg4, bold = true },
+    RenderMarkdownH1 = { fg = p.accent, italic = true },
+    RenderMarkdownH2 = { fg = p.accent2, italic = true },
+    RenderMarkdownH3 = { fg = p.olive, italic = true },
+    RenderMarkdownH4 = { fg = p.blue, italic = true },
+    RenderMarkdownH5 = { fg = p.green, italic = true },
+    RenderMarkdownH6 = { fg = p.purple, italic = true },
+    RenderMarkdownH1Bg = { fg = p.accent, bg = p.bg4, italic = true },
+    RenderMarkdownH2Bg = { fg = p.accent2, bg = p.bg4, italic = true },
+    RenderMarkdownH3Bg = { fg = p.olive, bg = p.bg4, italic = true },
+    RenderMarkdownH4Bg = { fg = p.blue, bg = p.bg4, italic = true },
+    RenderMarkdownH5Bg = { fg = p.green, bg = p.bg4, italic = true },
+    RenderMarkdownH6Bg = { fg = p.purple, bg = p.bg4, italic = true },
 
     -- code
     RenderMarkdownCode = { bg = p.bg2 },
@@ -41,7 +41,7 @@ local function render_markdown(p)
     RenderMarkdownTodo = { fg = p.accent2 },
 
     -- tables
-    RenderMarkdownTableHead = { fg = p.accent, bold = true },
+    RenderMarkdownTableHead = { fg = p.accent, italic = true },
     RenderMarkdownTableRow = { fg = p.fg1 },
     RenderMarkdownTableFill = { fg = p.fg3 },
 

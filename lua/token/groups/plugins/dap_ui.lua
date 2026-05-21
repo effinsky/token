@@ -12,13 +12,13 @@ local function dap_ui(p)
     DapUIVariable = { fg = p.fg0 },
     DapUIType = { fg = p.blue },
     DapUIValue = { fg = p.purple },
-    DapUIModifiedValue = { fg = p.accent, bold = true },
-    DapUIScope = { fg = p.accent, bold = true },
+    DapUIModifiedValue = { fg = p.accent, italic = true },
+    DapUIScope = { fg = p.accent, italic = true },
     DapUIDecoration = { fg = p.fg3 },
 
     -- threads and frames
     DapUIThread = { fg = p.green },
-    DapUIStoppedThread = { fg = p.accent, bold = true },
+    DapUIStoppedThread = { fg = p.accent, italic = true },
     DapUIFrameName = { fg = p.fg0 },
     DapUISource = { fg = p.blue, italic = true },
     DapUILineNumber = { link = 'LineNr' },
@@ -27,7 +27,7 @@ local function dap_ui(p)
     -- breakpoints
     DapUIBreakpointsPath = { fg = p.blue },
     DapUIBreakpointsInfo = { fg = p.blue },
-    DapUIBreakpointsCurrentLine = { fg = p.accent, bold = true },
+    DapUIBreakpointsCurrentLine = { fg = p.accent, italic = true },
     DapUIBreakpointsLine = { link = 'DapUILineNumber' },
     DapUIBreakpointsDisabledLine = { fg = p.fg3 },
 
@@ -45,7 +45,7 @@ local function dap_ui(p)
     DapUIStepOut = { fg = p.blue },
     DapUIStop = { fg = p.red },
     DapUIUnavailable = { fg = p.fg3 },
-    DapUIWinSelect = { fg = p.accent, bold = true },
+    DapUIWinSelect = { fg = p.accent, italic = true },
   }
 end
 

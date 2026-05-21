@@ -40,11 +40,11 @@ local function syntax(p)
     Debug = { fg = p.red },
 
     Underlined = { underline = true },
-    Bold = { bold = true },
+    Bold = { italic = true },
     Italic = { italic = true },
     Ignore = { fg = p.fg3 },
-    Error = { fg = p.red, bold = true },
-    Todo = { fg = p.yellow, bold = true },
+    Error = { fg = p.red, italic = true },
+    Todo = { fg = p.yellow, italic = true },
   }
 end
 

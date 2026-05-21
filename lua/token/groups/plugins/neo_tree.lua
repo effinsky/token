@@ -13,7 +13,7 @@ local function neo_tree(p)
     NeoTreeStatusLineNC = { link = 'StatusLineNC' },
 
     -- files and directories
-    NeoTreeRootName = { fg = p.accent, bold = true },
+    NeoTreeRootName = { fg = p.accent, italic = true },
     NeoTreeDirectoryName = { fg = p.blue },
     NeoTreeDirectoryIcon = { fg = p.blue },
     NeoTreeFileName = { fg = p.fg0 },
@@ -24,12 +24,12 @@ local function neo_tree(p)
     NeoTreeDotfile = { fg = p.fg3 },
     NeoTreeHiddenByName = { fg = p.fg3 },
     NeoTreeDimText = { fg = p.fg3 },
-    NeoTreeFilterTerm = { fg = p.accent, bold = true },
+    NeoTreeFilterTerm = { fg = p.accent, italic = true },
 
     -- float window
     NeoTreeFloatBorder = { fg = p.fg3, bg = p.bg0 },
-    NeoTreeFloatTitle = { fg = p.accent, bg = p.bg0, bold = true },
-    NeoTreeTitleBar = { fg = p.bg3, bg = p.accent, bold = true },
+    NeoTreeFloatTitle = { fg = p.accent, bg = p.bg0, italic = true },
+    NeoTreeTitleBar = { fg = p.bg3, bg = p.accent, italic = true },
 
     -- git status
     NeoTreeGitAdded = { fg = p.green },

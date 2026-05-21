@@ -33,11 +33,11 @@ local function lsp(_p)
     ['@lsp.mod.async'] = { italic = true },
     ['@lsp.mod.static'] = { italic = true },
     ['@lsp.mod.abstract'] = { italic = true },
-    ['@lsp.mod.declaration'] = { bold = true },
-    ['@lsp.mod.definition'] = { bold = true },
+    ['@lsp.mod.declaration'] = { italic = true },
+    ['@lsp.mod.definition'] = { italic = true },
     ['@lsp.mod.defaultLibrary'] = { italic = true },
     ['@lsp.mod.documentation'] = { italic = true },
-    ['@lsp.mod.modification'] = { bold = true },
+    ['@lsp.mod.modification'] = { italic = true },
   }
 end
 

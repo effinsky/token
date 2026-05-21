@@ -4,12 +4,12 @@ local function blink(p)
   return {
     BlinkCmpMenu = { fg = p.fg0, bg = p.bg1 },
     BlinkCmpMenuBorder = { fg = p.fg3, bg = p.bg1 },
-    BlinkCmpMenuSelection = { bg = p.sel, bold = true },
+    BlinkCmpMenuSelection = { bg = p.sel, italic = true },
     BlinkCmpScrollBarThumb = { bg = p.fg3 },
     BlinkCmpScrollBarGutter = { bg = p.bg2 },
     BlinkCmpLabel = { fg = p.fg0 },
     BlinkCmpLabelDeprecated = { fg = p.fg3, strikethrough = true },
-    BlinkCmpLabelMatch = { fg = p.accent, bold = true },
+    BlinkCmpLabelMatch = { fg = p.accent, italic = true },
     BlinkCmpLabelDetail = { fg = p.fg2 },
     BlinkCmpLabelDescription = { fg = p.fg2 },
     BlinkCmpKind = { fg = p.fg2 },
@@ -44,7 +44,7 @@ local function blink(p)
     BlinkCmpDocCursorLine = { bg = p.bg5 },
     BlinkCmpSignatureHelp = { fg = p.fg0, bg = p.bg0 },
     BlinkCmpSignatureHelpBorder = { fg = p.fg3, bg = p.bg0 },
-    BlinkCmpSignatureHelpActiveParameter = { fg = p.accent, bold = true },
+    BlinkCmpSignatureHelpActiveParameter = { fg = p.accent, italic = true },
     BlinkCmpGhostText = { fg = p.fg3, italic = true },
     BlinkCmpSource = { fg = p.fg2 },
   }

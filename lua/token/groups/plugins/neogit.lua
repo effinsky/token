@@ -13,19 +13,19 @@ local function neogit(p)
     NeogitGraphPurple = { fg = p.purple },
     NeogitGraphGray = { fg = p.fg3 },
     NeogitGraphOrange = { fg = p.accent },
-    NeogitGraphBoldRed = { fg = p.red, bold = true },
-    NeogitGraphBoldWhite = { fg = p.fg0, bold = true },
-    NeogitGraphBoldYellow = { fg = p.yellow, bold = true },
-    NeogitGraphBoldGreen = { fg = p.green, bold = true },
-    NeogitGraphBoldCyan = { fg = p.cyan, bold = true },
-    NeogitGraphBoldBlue = { fg = p.blue, bold = true },
-    NeogitGraphBoldPurple = { fg = p.purple, bold = true },
-    NeogitGraphBoldGray = { fg = p.fg3, bold = true },
-    NeogitGraphBoldOrange = { fg = p.accent, bold = true },
+    NeogitGraphBoldRed = { fg = p.red, italic = true },
+    NeogitGraphBoldWhite = { fg = p.fg0, italic = true },
+    NeogitGraphBoldYellow = { fg = p.yellow, italic = true },
+    NeogitGraphBoldGreen = { fg = p.green, italic = true },
+    NeogitGraphBoldCyan = { fg = p.cyan, italic = true },
+    NeogitGraphBoldBlue = { fg = p.blue, italic = true },
+    NeogitGraphBoldPurple = { fg = p.purple, italic = true },
+    NeogitGraphBoldGray = { fg = p.fg3, italic = true },
+    NeogitGraphBoldOrange = { fg = p.accent, italic = true },
 
     -- Diff file headers
-    NeogitDiffHeader = { fg = p.blue, bg = p.bg4, bold = true },
-    NeogitDiffHeaderHighlight = { fg = p.accent, bg = p.bg5, bold = true },
+    NeogitDiffHeader = { fg = p.blue, bg = p.bg4, italic = true },
+    NeogitDiffHeaderHighlight = { fg = p.accent, bg = p.bg5, italic = true },
 
     -- Diff context
     NeogitDiffContext = { fg = p.fg1, bg = p.bg3 },
@@ -35,38 +35,38 @@ local function neogit(p)
     -- Diff add/delete
     NeogitDiffAdditions = { fg = p.green },
     NeogitDiffAdd = { fg = p.green, bg = p.diff_add },
-    NeogitDiffAddHighlight = { fg = p.green, bg = p.diff_add, bold = true },
+    NeogitDiffAddHighlight = { fg = p.green, bg = p.diff_add, italic = true },
     NeogitDiffAddCursor = { fg = p.green, bg = p.bg3 },
     NeogitDiffDeletions = { fg = p.red },
     NeogitDiffDelete = { fg = p.red, bg = p.diff_del },
-    NeogitDiffDeleteHighlight = { fg = p.red, bg = p.diff_del, bold = true },
+    NeogitDiffDeleteHighlight = { fg = p.red, bg = p.diff_del, italic = true },
     NeogitDiffDeleteCursor = { fg = p.red, bg = p.bg3 },
     NeogitDiffAddInline = { bg = p.diff_add_inline },
     NeogitDiffDeleteInline = { bg = p.diff_del_inline },
 
     -- Hunk headers
-    NeogitHunkHeader = { fg = p.fg0, bg = p.bg4, bold = true },
-    NeogitHunkHeaderHighlight = { fg = p.accent, bg = p.bg5, bold = true },
-    NeogitHunkHeaderCursor = { fg = p.accent, bg = p.bg5, bold = true },
-    NeogitHunkMergeHeader = { fg = p.fg0, bg = p.bg4, bold = true },
-    NeogitHunkMergeHeaderHighlight = { fg = p.cyan, bg = p.bg5, bold = true },
-    NeogitHunkMergeHeaderCursor = { fg = p.cyan, bg = p.bg5, bold = true },
+    NeogitHunkHeader = { fg = p.fg0, bg = p.bg4, italic = true },
+    NeogitHunkHeaderHighlight = { fg = p.accent, bg = p.bg5, italic = true },
+    NeogitHunkHeaderCursor = { fg = p.accent, bg = p.bg5, italic = true },
+    NeogitHunkMergeHeader = { fg = p.fg0, bg = p.bg4, italic = true },
+    NeogitHunkMergeHeaderHighlight = { fg = p.cyan, bg = p.bg5, italic = true },
+    NeogitHunkMergeHeaderCursor = { fg = p.cyan, bg = p.bg5, italic = true },
 
     -- Branch/remote/tag
     NeogitBranch = { fg = p.accent },
-    NeogitBranchHead = { fg = p.accent, bold = true, underline = true },
+    NeogitBranchHead = { fg = p.accent, italic = true, underline = true },
     NeogitRemote = { fg = p.blue },
-    NeogitTagName = { fg = p.orange, bold = true },
+    NeogitTagName = { fg = p.orange, italic = true },
     NeogitTagDistance = { fg = p.cyan },
 
     -- Status sections
-    NeogitSectionHeader = { fg = p.accent, bold = true },
+    NeogitSectionHeader = { fg = p.accent, italic = true },
     NeogitSectionHeaderCount = { fg = p.fg2 },
-    NeogitStatusHEAD = { fg = p.fg1, bold = true },
+    NeogitStatusHEAD = { fg = p.fg1, italic = true },
     NeogitObjectId = { fg = p.fg3 },
     NeogitStash = { fg = p.fg1 },
     NeogitRebaseDone = { fg = p.fg3 },
-    NeogitUnmergedInto = { fg = p.purple, bold = true },
+    NeogitUnmergedInto = { fg = p.purple, italic = true },
     NeogitUnpushedTo = { fg = p.accent },
     NeogitUnpulledFrom = { fg = p.blue },
 
@@ -81,14 +81,14 @@ local function neogit(p)
     NeogitChangeUnmerged = { fg = p.accent },
 
     -- Commit view
-    NeogitCommitViewHeader = { fg = p.fg0, bg = p.bg5, bold = true },
+    NeogitCommitViewHeader = { fg = p.fg0, bg = p.bg5, italic = true },
     NeogitCommitViewDescription = { fg = p.fg1 },
     NeogitFilePath = { fg = p.blue, italic = true },
 
     -- Popup keys
-    NeogitPopupSectionTitle = { fg = p.accent, bold = true },
-    NeogitPopupBranchName = { fg = p.accent, bold = true },
-    NeogitPopupBold = { bold = true },
+    NeogitPopupSectionTitle = { fg = p.accent, italic = true },
+    NeogitPopupBranchName = { fg = p.accent, italic = true },
+    NeogitPopupBold = { italic = true },
     NeogitPopupSwitchKey = { fg = p.purple },
     NeogitPopupSwitchEnabled = { fg = p.green },
     NeogitPopupSwitchDisabled = { fg = p.fg3 },
@@ -121,11 +121,11 @@ local function neogit(p)
     NeogitSignatureGoodRevokedKey = { fg = p.red },
 
     -- Float headers
-    NeogitFloatHeader = { fg = p.fg1, bg = p.bg0, bold = true },
-    NeogitFloatHeaderHighlight = { fg = p.cyan, bg = p.bg2, bold = true },
+    NeogitFloatHeader = { fg = p.fg1, bg = p.bg0, italic = true },
+    NeogitFloatHeaderHighlight = { fg = p.cyan, bg = p.bg2, italic = true },
 
     -- Active item (currently viewed commit in log)
-    NeogitActiveItem = { bg = p.bg5, bold = true },
+    NeogitActiveItem = { bg = p.bg5, italic = true },
   }
 end
 

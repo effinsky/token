@@ -5,12 +5,12 @@ local function telescope(p)
     -- main window
     TelescopeNormal = { fg = p.fg0, bg = p.bg0 },
     TelescopeBorder = { fg = p.fg3, bg = p.bg0 },
-    TelescopeTitle = { fg = p.accent, bg = p.bg0, bold = true },
+    TelescopeTitle = { fg = p.accent, bg = p.bg0, italic = true },
 
     -- prompt
     TelescopePromptNormal = { fg = p.fg0, bg = p.bg0 },
     TelescopePromptBorder = { fg = p.fg3, bg = p.bg0 },
-    TelescopePromptTitle = { fg = p.accent2, bg = p.bg0, bold = true },
+    TelescopePromptTitle = { fg = p.accent2, bg = p.bg0, italic = true },
     TelescopePromptPrefix = { fg = p.accent },
     TelescopePromptCounter = { fg = p.fg3 },
 
@@ -22,14 +22,14 @@ local function telescope(p)
     -- preview
     TelescopePreviewNormal = { fg = p.fg0, bg = p.bg1 },
     TelescopePreviewBorder = { fg = p.fg3, bg = p.bg1 },
-    TelescopePreviewTitle = { fg = p.accent2, bg = p.bg1, bold = true },
+    TelescopePreviewTitle = { fg = p.accent2, bg = p.bg1, italic = true },
 
     -- selection and matching
-    TelescopeSelection = { bg = p.sel, bold = true },
+    TelescopeSelection = { bg = p.sel, italic = true },
     TelescopeSelectionCaret = { fg = p.accent, bg = p.sel },
     TelescopeMultiSelection = { fg = p.accent2, bg = p.sel },
     TelescopeMultiIcon = { fg = p.accent2 },
-    TelescopeMatching = { fg = p.accent, bold = true },
+    TelescopeMatching = { fg = p.accent, italic = true },
 
     -- preview highlights
     TelescopePreviewLine = { bg = p.bg5 },

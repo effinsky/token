@@ -3,20 +3,20 @@
 local function fugitive(p)
   return {
     -- vim-fugitive (status buffer)
-    fugitiveHeader = { fg = p.accent2, bold = true },
+    fugitiveHeader = { fg = p.accent2, italic = true },
     fugitiveHelpHeader = { link = 'fugitiveHeader' },
     fugitiveHelpTag = { fg = p.fg2 },
-    fugitiveHeading = { fg = p.accent, bold = true },
-    fugitiveUntrackedHeading = { fg = p.fg2, bold = true },
-    fugitiveUnstagedHeading = { fg = p.yellow, bold = true },
-    fugitiveStagedHeading = { fg = p.green, bold = true },
+    fugitiveHeading = { fg = p.accent, italic = true },
+    fugitiveUntrackedHeading = { fg = p.fg2, italic = true },
+    fugitiveUnstagedHeading = { fg = p.yellow, italic = true },
+    fugitiveStagedHeading = { fg = p.green, italic = true },
     fugitiveCount = { fg = p.fg2 },
     fugitiveModifier = { fg = p.blue },
     fugitiveUntrackedModifier = { fg = p.fg3 },
     fugitiveUnstagedModifier = { fg = p.yellow },
     fugitiveStagedModifier = { fg = p.green },
     fugitiveInstruction = { fg = p.accent2 },
-    fugitiveStop = { fg = p.red, bold = true },
+    fugitiveStop = { fg = p.red, italic = true },
     fugitiveHash = { fg = p.fg3 },
     fugitiveSymbolicRef = { fg = p.accent },
 
