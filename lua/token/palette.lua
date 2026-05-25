@@ -175,7 +175,7 @@ local function palette(background)
     diag_hint = '#1c2e2e',
     -- UI elements
     ts_context_bg = '#2d2d2d',
-    sel = '#5d5d56',
+    sel = '#6a6a62',
     match = '#4a4030',
     indent = '#333330',
     indent_active = '#636360',
