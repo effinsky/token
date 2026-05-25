@@ -109,7 +109,7 @@ local function palette(background)
       diag_info = '#dae4f2',
       diag_hint = '#d6eeea',
       -- UI elements
-      sel = '#dddcd6',
+      sel = '#cfcec8',
       match = '#e8d8b0',
       indent = '#e0ddd8',
       indent_active = '#a8a49c',
@@ -170,7 +170,7 @@ local function palette(background)
     diag_info = '#1e2634',
     diag_hint = '#1c2e2e',
     -- UI elements
-    sel = '#3a3a37',
+    sel = '#3d3d3a',
     match = '#4a4030',
     indent = '#333330',
     indent_active = '#636360',
