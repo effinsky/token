@@ -2,8 +2,8 @@
 ---@return table<string, vim.api.keyset.highlight>
 local function blink(p)
   return {
-    BlinkCmpMenu = { fg = p.fg0, bg = p.bg1 },
-    BlinkCmpMenuBorder = { fg = p.fg3, bg = p.bg1 },
+    BlinkCmpMenu = { fg = p.fg0, bg = p.bg0 },
+    BlinkCmpMenuBorder = { fg = p.fg3, bg = p.bg0 },
     BlinkCmpMenuSelection = { bg = p.sel, italic = true },
     BlinkCmpScrollBarThumb = { bg = p.fg3 },
     BlinkCmpScrollBarGutter = { bg = p.bg2 },

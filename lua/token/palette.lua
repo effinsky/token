@@ -1,7 +1,9 @@
 ---@class TokenPalette
 --- Background ramp
---- Dark:  bg0 (darkest) -> bg5 (lightest), bg3 = Normal
---- Light: bg3 (lightest) -> bg0 (darkest), bg4/bg5 also darker than bg3
+--- Dark:  bg1 -> bg5 ramp (darkest -> lightest), bg3 = Normal
+--- Light: bg3 (lightest) -> bg1 (darkest), bg4/bg5 also darker than bg3
+--- bg0:   elevated surface (popups, floats, TS context) — slightly
+---        brighter than bg3 in both modes
 ---@field bg0 string
 ---@field bg1 string
 ---@field bg2 string
@@ -43,6 +45,7 @@
 ---@field diag_info string
 ---@field diag_hint string
 --- UI elements
+---@field ts_context_bg string  Treesitter-context sticky strip bg
 ---@field sel string
 ---@field match string
 ---@field indent string
@@ -68,7 +71,7 @@ local function palette(background)
   if background == 'light' then
     return {
       -- Background ramp
-      bg0 = '#e6e5e1',
+      bg0 = '#fdfcf8',
       bg1 = '#ecebe7',
       bg2 = '#f6f5f1',
       bg3 = '#faf9f5',
@@ -109,6 +112,7 @@ local function palette(background)
       diag_info = '#dae4f2',
       diag_hint = '#d6eeea',
       -- UI elements
+      ts_context_bg = '#f0efeb',
       sel = '#cfcec8',
       match = '#e8d8b0',
       indent = '#e0ddd8',
@@ -129,7 +133,7 @@ local function palette(background)
   -- dark
   return {
     -- Background ramp
-    bg0 = '#191918',
+    bg0 = '#282826',
     bg1 = '#1d1d1c',
     bg2 = '#212120',
     bg3 = '#262624',
@@ -170,6 +174,7 @@ local function palette(background)
     diag_info = '#1e2634',
     diag_hint = '#1c2e2e',
     -- UI elements
+    ts_context_bg = '#2d2d2d',
     sel = '#5d5d56',
     match = '#4a4030',
     indent = '#333330',
